@@ -1,0 +1,276 @@
+
+header{
+   
+    height: 80px;
+    width: 1300px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+body{
+    height: auto;
+    width: 1300px;
+}
+
+#contenedor{
+    height: 150px;
+    width: 1300px;
+    background-color: rgb(248, 40, 40);
+    display: flex;
+}
+#titulo {
+ 
+ display: block;
+ color: brown;
+ font-family: cursive;
+}
+#buscador{
+    float:right;
+    display: inline;
+    position:absolute;
+    top:5%;
+    left: 850px;
+
+}
+
+.cuenta, .corazon, .compra{
+    position: absolute;
+    float: right;
+    top:5%;
+    left: 1200px;
+}
+.corazon{
+    left: 1250px;
+}
+.compra{
+    left: 1300px;
+}
+
+#contenedor2{
+    width: 1300px;
+    height: 460px;
+    float: right;
+
+}
+nav{
+    background-color: rgb(226, 207, 123);
+    text-align: center;
+    width: 1300px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+li{
+    display: inline;
+    
+}
+.inicio{
+
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+    margin: 50px;; 
+
+}
+#portada{
+    
+    height: 460px;
+    width: 1300px;
+    top: 400px;
+
+}
+
+#text1{
+    color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   position: absolute;
+   top: 300px;
+   left: 300px;
+   font-size: 250%;
+   
+   
+}
+#text2{
+    color: white;
+    font-family:cursive;
+    font-style:initial;
+    font-size: 20px;
+    top:430px;
+    position: absolute;
+    text-align: center;
+    left: 430px;
+    
+}
+#recomendaciones, #libros{
+    color: rgb(211, 24, 24);
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: left;
+    border-radius: 5px;
+
+}
+#contenedor4{
+    
+    height: 500px; 
+    width: 1300px;
+    text-align: center;
+    float: right;
+ background-color: rgb(255, 255, 255);
+    white-space: nowrap; 
+}
+  
+.libro1{
+    width: 250px;
+    height:400px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 5px;
+    overflow: hidden;
+}
+.por{
+    height: 250px;
+    width: 200px;
+    border: radius 10px;
+ }
+ #contenedor5{
+    height: 500px; 
+    width: 1300px;
+    text-align: center;
+    float: right;
+ background-color: rgb(255, 255, 255);
+    white-space: nowrap; 
+    overflow-x: scroll;
+ }
+
+   
+.autor{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.contexto{
+    font-size: large;
+}
+.precio{
+
+    color: rgb(255, 166, 0);
+
+}
+
+.comprar{
+background-color: brown;
+text-align: center;
+float: none;
+border-radius: 1%;
+color: white;
+margin: 10px;
+padding: 10px;
+
+}
+
+
+.port{
+    height: 220px;
+    width: 150px; 
+    display: inline-block;  
+
+}
+#contenedor6{
+    height:400px;
+    width: 1300px;
+    float: left;
+    border-radius: 15%;
+    
+}
+#context{
+    height: 380px;
+    width: 500px;
+    border: 10px;
+    float: left;
+    
+}
+#unouno, #unodos{
+    color: brown;
+    font-family:sans-serif;
+    font-size:x-large;
+}
+#unodos{
+    
+    text-align: center;
+}
+
+#imagen2{
+width: 640px;
+height: 400px;
+background-image: url(imagenes/libreria.jpg);
+background-size: cover;
+float:right;
+}
+
+footer{
+    height: 380px; 
+    width: 1350px;
+    text-align: center;
+    float: right;
+ background-color: rgb(99, 88, 30);
+    white-space: nowrap; 
+    display: inline-flex;
+}
+
+    
+.conten{
+
+    width: 350px;
+    height:350px;
+    display: inline-block;
+    color:white;
+    float: left;
+    white-space: nowrap;
+    
+
+
+}
+.conte{
+    float: right;
+    color: white;
+}
+#contenido{
+    width:300px;
+    height:300px ;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+    color: white;
+}
+#pie{
+    width:1300px ;
+    height: 50px;
+    top: 50px;
+    
+}
+.info{
+    text-decoration: none;
+    color: white;
+}
+
+.redes2{
+    
+    text-align:left;
+}
+.textpie{
+    text-align: center;
+}
+.redescont{
+ text-align: right;
+ font-size: xx-small;
+ text-align: center;
+}
+
+
+
+.redescont1{
+    text-align: center;
+    font-size: x-small;
+}
